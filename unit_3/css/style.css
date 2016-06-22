@@ -37,18 +37,20 @@ h1 {
 	font-family:'Old Standard TT', serif;
 	font-weight: 600;
 	margin-right: 1.25em;
-	letter-spacing: 1px;
+	letter-spacing: 0.25em;
 }
 
 p {
 	padding: 2em;
+	width: 30em;
+	margin: 2em auto;
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
 	font-weight: lighter;
-	padding-top: 20px;
+	padding-top: 1em;
 }
 
 ul {
@@ -60,13 +62,13 @@ ul {
 
 li {
 	display: inline;
-	padding: 0px 0px 0px 10px;
+	padding: 0 0 0 0.5em;
 	text-transform: uppercase;
 }
 
 hr {
 	border: none;
-	height: 3px;
+	height: 0.25em;
 	background-color: #222; 
 	width: 8em;
 	margin: 1em auto;
@@ -75,7 +77,7 @@ hr {
 #slogan {
 	color:black;
 	font-size: 2.5em;
-	padding: 30px
+	padding: 1em;
 }
 
 #womencoding {
@@ -83,10 +85,8 @@ hr {
 }
 
 #contact {
-font-size: 2em;
-padding-bottom: 1em;
+	text-decoration: none;
+	font-size: 1em;
+	padding: 2em;
 }
 
-#socialimage {
-	width="60" height="60";
-}
