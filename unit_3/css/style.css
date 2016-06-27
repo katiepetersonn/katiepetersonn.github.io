@@ -18,9 +18,12 @@
 }
 
 header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px
 	text-align: center;
-	padding: 1.5em;
-	margin: 1em;
+	/*padding: 1.5em;
+	margin: 1em;*/
 }
 
 h1 {
@@ -32,6 +35,7 @@ h1 {
 }
 
 .navlinks {
+	background-color: #E8C66A;
 	color:#222;
 	text-decoration: none;
 	font-family:'Old Standard TT', serif;
@@ -75,9 +79,14 @@ hr {
 }
 
 #slogan {
+	background-color: #E89C6C;
 	color:black;
 	font-size: 2.5em;
 	padding: 1em;
+}
+
+#Introduction{
+	background-color: #E89C6C;
 }
 
 #womencoding {
@@ -85,8 +94,19 @@ hr {
 }
 
 #contact {
+	background-color: #FF957E;
 	text-decoration: none;
 	font-size: 1em;
 	padding: 2em;
+}
+#about {
+	background-color: #FFE2B8;
+}
+
+#Blog {
+	background-color: #FFE2B8;
+}
+#GirlCrush {
+	background-color: #FFE2B8;
 }
 
