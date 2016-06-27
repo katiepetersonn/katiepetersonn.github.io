@@ -57,6 +57,11 @@ h2 {
 	padding-top: 1em;
 }
 
+h3 {
+	font-size: 1.5em;
+	padding: 1em;
+}
+
 ul {
 	padding: .5em 1em;
 	margin: 1em;
@@ -91,6 +96,10 @@ hr {
 
 #womencoding {
 	width: 60%;
+}
+
+#margarethamilton{
+	width: 20%;
 }
 
 #contact {
