@@ -25,7 +25,10 @@ header {
 	/*padding: 1.5em;
 	margin: 1em;*/
 }
-
+section {
+	padding:4em 0;
+	margin-bottom:1em;
+}
 h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 6em;
@@ -45,16 +48,16 @@ h1 {
 }
 
 p {
-	padding: 2em;
+	/* padding: 2em; */
 	width: 30em;
-	margin: 2em auto;
+	margin: 2em auto 0;
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
 	font-weight: lighter;
-	padding-top: 1em;
+	/* padding-top: 1em; */
 }
 
 h3 {
@@ -104,9 +107,11 @@ hr {
 
 #contact {
 	background-color: #FF957E;
-	text-decoration: none;
 	font-size: 1em;
 	padding: 2em;
+}
+#contact a {
+	text-decoration:none;
 }
 #about {
 	background-color: #FFE2B8;
