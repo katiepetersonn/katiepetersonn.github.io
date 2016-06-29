@@ -18,11 +18,17 @@
 }
 
 header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px
 	text-align: center;
-	padding: 1.5em;
-	margin: 1em;
+	/*padding: 1.5em;
+	margin: 1em;*/
 }
-
+section {
+	padding:4em 0;
+	margin-bottom:1em;
+}
 h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 6em;
@@ -32,6 +38,7 @@ h1 {
 }
 
 .navlinks {
+	background-color: #E8C66A;
 	color:#222;
 	text-decoration: none;
 	font-family:'Old Standard TT', serif;
@@ -41,16 +48,21 @@ h1 {
 }
 
 p {
-	padding: 2em;
+	/* padding: 2em; */
 	width: 30em;
-	margin: 2em auto;
+	margin: 2em auto 0;
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
 	font-weight: lighter;
-	padding-top: 1em;
+	/* padding-top: 1em; */
+}
+
+h3 {
+	font-size: 1.5em;
+	padding: 1em;
 }
 
 ul {
@@ -75,18 +87,40 @@ hr {
 }
 
 #slogan {
+	background-color: #E89C6C;
 	color:black;
 	font-size: 2.5em;
 	padding: 1em;
+}
+
+#Introduction{
+	background-color: #E89C6C;
 }
 
 #womencoding {
 	width: 60%;
 }
 
+#margarethamilton{
+	width: 20%;
+}
+
 #contact {
-	text-decoration: none;
+	background-color: #FF957E;
 	font-size: 1em;
 	padding: 2em;
+}
+#contact a {
+	text-decoration:none;
+}
+#about {
+	background-color: #FFE2B8;
+}
+
+#Blog {
+	background-color: #FFE2B8;
+}
+#GirlCrush {
+	background-color: #FFE2B8;
 }
 
