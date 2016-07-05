@@ -9,36 +9,34 @@
 
  body {
 	text-align: center;	
-	position: relative;
-	font-family:'Old Standard TT', serif;
-	font-size: 20px; /*1em=20px*/
-	color: #222;
-	line-height: 1.3;
-	background-color: #FFE8E0;
+	position: relative; 
+	/*background-color: #FFE8E0;*/
 }
 
 header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px
+	/*background-color: #FFED74;*/
+	padding: 1em;
 	text-align: center;
-	/*padding: 1.5em;
-	margin: 1em;*/
 }
+
+main {
+	padding: 1em 0;
+}
+
 section {
-	padding:4em 0;
+	padding:1em 0;
 	margin-bottom:1em;
 }
+
 h1 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 6em;
+	font-size: 3em;
 	text-transform: uppercase;
-	padding-bottom: .5em;
+	padding: .5em;
 	margin: 0 1em 0 1em;
 }
 
 .navlinks {
-	background-color: #E8C66A;
 	color:#222;
 	text-decoration: none;
 	font-family:'Old Standard TT', serif;
@@ -48,27 +46,28 @@ h1 {
 }
 
 p {
-	/* padding: 2em; */
-	width: 30em;
-	margin: 2em auto 0;
+	line-height: 1.3;
+	font-family:'Old Standard TT', serif;
+	font-size: 18px; /*1em=18px*/
+	text-align: left;
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 2em;
-	font-weight: lighter;
+	font-size: 1.5em;
+	padding-bottom: .25em;
 	/* padding-top: 1em; */
 }
 
 h3 {
-	font-size: 1.5em;
-	padding: 1em;
+	font-size: 1.25em;
+	padding: .5em;
 }
 
 ul {
 	padding: .5em 1em;
 	margin: 1em;
-	font-size: 1.25em;
+	font-size: 1em;
 	/*background: #ffe6e6;*/
 }
 
@@ -80,47 +79,71 @@ li {
 
 hr {
 	border: none;
-	height: 0.25em;
+	height: 0.20em;
 	background-color: #222; 
-	width: 8em;
+	width: 4em;
 	margin: 1em auto;
 }
 
+.content {
+	/*background-color: #FFB7CF;*/
+	/*border: 1px black solid;*/
+	width: 30%;
+	margin: 1.5%;
+	float: left;
+	/*padding: 20px;*/
+}
+
+.wrapper {
+	width: 90%;
+	margin: auto;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear:both;
+}
+
 #slogan {
-	background-color: #E89C6C;
 	color:black;
-	font-size: 2.5em;
+	font-size: 2em;
 	padding: 1em;
 }
 
 #Introduction{
-	background-color: #E89C6C;
+	text-align: center;
+	width: 30em;
+	margin: 2em auto 0;
 }
 
-#womencoding {
+#womenCoding {
 	width: 60%;
+	padding-top: .25em;
 }
 
-#margarethamilton{
-	width: 20%;
+#margaretHamilton{
+	width: 20em;
+}
+
+#binary {
+	width: 20em;
+}
+
+#womanHand {
+	width: 20em;
 }
 
 #contact {
-	background-color: #FF957E;
 	font-size: 1em;
 	padding: 2em;
 }
+
 #contact a {
 	text-decoration:none;
 }
-#about {
-	background-color: #FFE2B8;
-}
 
-#Blog {
-	background-color: #FFE2B8;
-}
-#GirlCrush {
-	background-color: #FFE2B8;
-}
 
