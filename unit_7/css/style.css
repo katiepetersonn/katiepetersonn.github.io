@@ -28,11 +28,18 @@ section {
 
 h1 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 10em;
+	font-size: 3em;
 	text-transform: uppercase;
 	padding: .5em;
 	margin: 0 1em 0 1em;
 	float: left;
+}
+
+div {
+	font-size: 1.2em;
+	width: 46%
+	padding: 2%;
+	display: inline-block;
 }
 
 .navlinks {
@@ -42,6 +49,9 @@ h1 {
 	font-weight: 600;
 	margin-right: 1.25em;
 	letter-spacing: 0.25em;
+	display: inline;
+	padding: 0 0 0 0.5em;
+	text-transform: uppercase
 }
 
 p {
@@ -66,7 +76,7 @@ h3 {
 ul {
 	padding: .5em 1em;
 	margin: 1em;
-	font-size: 2em;
+	font-size: 1em;
 }
 
 li {
@@ -86,7 +96,6 @@ hr {
 .content {
 	width: 30%;
 	margin: 1.5%;
-	float: left;
 }
 
 .wrapper {
@@ -103,6 +112,26 @@ hr {
 	clear:both;
 }
 
+.list{
+	float:left;
+	width:50%;
+	height: 6em;
+	outline: 3px solid #222;
+	text-align: center;
+	line-height: 6em;
+	color: #000;
+	background: #fff;
+}
+
+#about {
+	float:left;
+	margin: 0 0 1em 1em;
+}
+
+#services{
+	float:right
+}
+
 #slogan {
 	color:black;
 	font-size: 2em;
@@ -110,18 +139,20 @@ hr {
 }
 
 #Introduction{
-	text-align: center;
-	width: 30em;
-	margin: 2em auto 0;
+	float:left;
+	display:inline;
+	width: 30%;
+	margin: 1.5%;
 }
 
 #womenCoding {
-	width: 60%;
+	width: 100%;
 	padding-top: .25em;
 }
 
 #margaretHamilton{
 	width: 20em;
+	float: left;
 }
 
 #binary {
@@ -129,6 +160,7 @@ hr {
 }
 
 #womanHand {
+	float:left;
 	width: 20em;
 }
 
@@ -140,5 +172,4 @@ hr {
 #contact a {
 	text-decoration:none;
 }
-
 
