@@ -17,6 +17,10 @@ header {
 	text-align: center;
 }
 
+nav {
+	padding-top:1.75em;
+}
+
 main {
 	padding: 1em 0;
 }
@@ -94,8 +98,9 @@ hr {
 }
 
 .content {
-	width: 30%;
+	width: 47%;
 	margin: 1.5%;
+	float:left;
 }
 
 .wrapper {
@@ -123,9 +128,16 @@ hr {
 	background: #fff;
 }
 
+#goals{
+	padding: 0 150px;
+}
+
 #about {
-	float:left;
 	margin: 0 0 1em 1em;
+}
+
+#GirlCrush {
+	clear:both;
 }
 
 #services{
