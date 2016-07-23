@@ -61,7 +61,8 @@ p {
 	line-height: 1.3;
 	font-family:'Old Standard TT', serif;
 	font-size: 18px; /*1em=18px*/
-	text-align: left;
+	text-align: center;
+	width: 78%;
 }
 
 h2 {
@@ -74,6 +75,8 @@ h2 {
 h3 {
 	font-size: 1.25em;
 	padding: .5em;
+	width: 71%;
+	margin:auto;
 }
 
 ul {
@@ -97,13 +100,13 @@ hr {
 }
 
 .content {
-	width: 50%;
+	width: 22%;
 	margin: 1.5%;
 }
 
 .wrapper {
-	width: 90%;
-	margin: auto;
+	margin: 0;
+	padding: 0;
 }
 
 .clearfix:after{
@@ -127,8 +130,7 @@ hr {
 }
 
 #tocode {
-	background-image: cover;
-	width: 75%;
+	width: 100%;
 }
 #goals{
 	padding: 0 150px;
@@ -153,15 +155,28 @@ hr {
 }
 
 #Introduction{
-	float:left;
-	display:inline;
-	width: 30%;
-	margin: 1.5%;
+	padding: 1em 0;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+#intro{
+	width:33px;
+}
+
+#aboutimg {
+    height: 535px;
+}
+
+#blogimg {
+    height: 535px;
 }
 
 #womenCoding {
 	width: 100%;
 	padding-top: .25em;
+	border-radius:50%;
+	height: 432px;
 }
 
 #margaretHamilton{
@@ -186,6 +201,11 @@ hr {
 #contact a {
 	text-decoration:none;
 }
+
+#aboutimg {
+    height: 535px;
+}
+
 
 @media (max-width: 1120px) {
 	.content {
