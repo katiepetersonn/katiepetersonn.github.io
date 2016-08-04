@@ -38,18 +38,15 @@ h1 {
 	margin: 0 1em 0 1em;
 }
 
-/*h1:after {
-	background-image: url("../images/tocode.jpg"); 
-	background-position: center;
-	content: "";
-	background-color: pink;
-	min-height: 100%;
+#hero {
+	background: url("../images/tocode.jpg") no-repeat center center scroll; 
 	background-size: cover;
-}*/
+	height: 850px;
+	width: 100%;
+}
 
 div {
 	font-size: 1.2em;
-	width: 46%
 	padding: 2%;
 	display: inline-block;
 }
@@ -149,19 +146,7 @@ hr {
 	margin-bottom: 0 0 20px 20px;
 }
 
-#aboutimg {
-    height: 535px;
-    margin: 0;
-    padding: 1em;
-}
-
-#blogimg {
-    height: 535px;
-    margin: 0;
-    padding: 1em;
-}
-
-#girlcrushimg {
+.intro img {
 	height: 535px;
     margin: 0;
     padding: 1em;
